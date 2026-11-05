@@ -8,23 +8,6 @@ I design and test software that works where the internet doesn't, and I research
 
 ---
 
-## Featured project
-
-### [PustiPath](https://github.com/FahadPatwary/pustipath)
-An offline, Bengali-first Android app that lets community health workers screen children for malnutrition with three on-device ONNX models, in under 200 ms per screening.
-
-- **Backend:** Firebase (Auth, Firestore, Cloud Functions, FCM) with role-based access and default-deny rules, plus a Next.js admin dashboard.
-- **Models:** LightGBM and XGBoost exported to ONNX in a 761 KB bundle, validated against the originals with zero output deviation.
-- **Testing:** automated unit, access-control and end-to-end tests with pytest, Selenium and Appium.
-- **My role:** I designed the system and led the research behind it, and used AI assistance to write much of the code.
-
-## Research
-
-- **Hybrid Green AI Framework:** 67.9% better Energy-to-Accuracy Ratio; model size 255 → 91 MB (distillation, pruning, INT8 quantization on DistilBERT)
-- **Two-Stage GOOSE Anomaly Detection:** 98.5% recall at 0.12 ms per packet for smart-grid security (rule engine + One-Class SVM, IEC 61850)
-- **Multimodal Malnutrition Screening:** ROC-AUC 0.884 on an unseen national holdout (LightGBM, XGBoost, EfficientNet-B0)
-
-*Manuscripts; not yet published.*
 
 ## Toolkit
 
@@ -102,6 +85,26 @@ An offline, Bengali-first Android app that lets community health workers screen 
 ![Requirements Analysis](https://img.shields.io/badge/Requirements%20Analysis-1B2A4A?style=flat-square)
 ![Design Systems](https://img.shields.io/badge/Design%20Systems-1B2A4A?style=flat-square)
 ![Technical Writing](https://img.shields.io/badge/Technical%20Writing-1B2A4A?style=flat-square)
+
+----
+
+## Featured project
+
+### [PustiPath](https://github.com/FahadPatwary/pustipath)
+An offline, Bengali-first Android app that lets community health workers screen children for malnutrition with three on-device ONNX models, in under 200 ms per screening.
+
+- **Backend:** Firebase (Auth, Firestore, Cloud Functions, FCM) with role-based access and default-deny rules, plus a Next.js admin dashboard.
+- **Models:** LightGBM and XGBoost exported to ONNX in a 761 KB bundle, validated against the originals with zero output deviation.
+- **Testing:** automated unit, access-control and end-to-end tests with pytest, Selenium and Appium.
+- **My role:** I designed the system and led the research behind it, and used AI assistance to write much of the code.
+
+## Research
+
+- **Hybrid Green AI Framework:** 67.9% better Energy-to-Accuracy Ratio; model size 255 → 91 MB (distillation, pruning, INT8 quantization on DistilBERT)
+- **Two-Stage GOOSE Anomaly Detection:** 98.5% recall at 0.12 ms per packet for smart-grid security (rule engine + One-Class SVM, IEC 61850)
+- **Multimodal Malnutrition Screening:** ROC-AUC 0.884 on an unseen national holdout (LightGBM, XGBoost, EfficientNet-B0)
+
+*Manuscripts; not yet published.*
 
 ## Education
 
